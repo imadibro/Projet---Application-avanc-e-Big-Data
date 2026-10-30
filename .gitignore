@@ -1,0 +1,36 @@
+# Python virtual environments
+.venv/
+.venv-spark/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Spark
+spark-warehouse/
+metastore_db/
+derby.log/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
